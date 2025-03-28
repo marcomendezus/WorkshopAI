@@ -10,15 +10,7 @@ namespace ArithmeticDemo.BasicMathOperations
     {
         public static double DivisionOperation(int a, int b)
         {
-            if (b != 0)
-            {
-                return (double)a / b;
-            }
-            else
-            {
-                Console.WriteLine("Error: Division by zero");
-                return double.NaN;
-            }
+            if (b != 0){return (double)a / b;}else{Console.WriteLine("Error: Division by zero");return double.NaN;}
         }
     }
 }

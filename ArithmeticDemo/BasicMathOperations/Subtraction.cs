@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ArithmeticDemo.BasicMathOperations
+﻿namespace ArithmeticDemo.BasicMathOperations
 {
-    public class Subtraction
-    {
+                            public class Subtraction{
         public static int SubtractionOperation(int a, int b)
         {
-            return a - b;
-        }
-    }
-}
+            int number1 = a;
+                            int number2 = b;
+double result = number1 - number2;
+            return result;
+}}}
